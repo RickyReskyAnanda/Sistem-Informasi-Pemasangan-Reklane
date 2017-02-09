@@ -1,0 +1,2 @@
+# ipr
+izin pemasangan reklame
