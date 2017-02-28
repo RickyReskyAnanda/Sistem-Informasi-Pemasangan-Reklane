@@ -92,8 +92,6 @@
 									</div>													
 								</div>
 								
-								s
-
 								<div class="form-group">
 									<label class="control-label col-md-4">Gambar Lokasi/Denah</label>
 									<div class="col-md-8">

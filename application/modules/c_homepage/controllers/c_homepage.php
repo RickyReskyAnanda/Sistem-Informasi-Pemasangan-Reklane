@@ -11,7 +11,7 @@ class C_homepage extends CI_Controller {
 		$this->load->view('v_homepage');
 		$this->load->view('template/js');
 		$this->load->view('template/foot');
-	}
+	} 
 	public function pelayanan_reklame()
 	{
 		$this->load->view('template/head');
@@ -30,17 +30,19 @@ class C_homepage extends CI_Controller {
 	public function tentang_kami(){
 		$this->load->view('template/head');
 		$this->load->view('template/sidebar');
-		$this->load->view('tentang_kami/tentang_kami');
+		$this->load->view('V_tentang_kami');
 		$this->load->view('template/js');
 		$this->load->view('template/foot');
 	}
-	public function panduan(){
+	public function panduan()
 		{
 		$this->load->view('template/head');
 		$this->load->view('template/sidebar');
 		$this->load->view('v_panduan');
 		$this->load->view('template/js');
 		$this->load->view('template/foot');
+	
 	}
-	}
+
+
 }

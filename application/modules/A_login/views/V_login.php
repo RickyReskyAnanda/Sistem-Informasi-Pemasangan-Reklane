@@ -15,7 +15,7 @@
               <input type="password" name="kuncinya" placeholder="password"/>
               <button>login</button>
             </form>
-            <?php if($this->session->flashdata('a_pesan')<>''){ ?>
+            <?php if($this->session->flashdata('a_pesan')!=''){ ?>
             <p><?=$this->session->flashdata('a_pesan');?></p>
             <?php } ?>
           </div>

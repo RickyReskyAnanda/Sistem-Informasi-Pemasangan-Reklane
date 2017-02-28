@@ -6,16 +6,20 @@ $route['default_controller'] = 'c_homepage';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['galeri'] 			= "c_gallery";
+$route['panduan'] 			= "c_homepage/panduan";
+$route['pelayanan-reklame']	= "c_homepage/pelayanan-reklame";
+$route['tentang-kami']		= "c_homepage/tentang_kami";
+
 
 // --- administrator ---
 $route['admin/login'] 			= "A_login";
 $route['admin/login/proses'] 	= "A_login/cek_login";
 $route['admin/dashboard'] 		= "A_dashboard";
 $route['admin/pengajuan'] 		= "A_pengajuan";
-$route['admin/pengajuan'] 		= "A_pengajuan";
 $route['admin/pengajuan/detail/:num'] 	= "A_pengajuan/view_detail_pengajuan";
 $route['admin/persetujuan/:any'] 		= "A_pengajuan/view_persetujuan";
-	$route['admin/pengajuan/update/data'] = "A_pengajuan/update_status_reklame";
+$route['admin/pengajuan/update/data'] = "A_pengajuan/update_status_reklame";
 
 
 
@@ -26,9 +30,9 @@ $route['admin/user/:any'] 		= "A_user";
 $route['admin/user/tambah/data'] = "A_user/view_tambah_user";
 $route['admin/user/edit/:num'] = "A_user/view_edit_user";
 $route['admin/user/detail/:num'] = "A_user/view_detail_user";
-	$route['admin/user/insert/data'] = "A_user/insert_data_user";
-	$route['admin/user/update/data'] = "A_user/update_data_user";
-	$route['admin/user/hapus/:num'] = "A_user/delete_data_user";
+$route['admin/user/insert/data'] = "A_user/insert_data_user";
+$route['admin/user/update/data'] = "A_user/update_data_user";
+$route['admin/user/hapus/:num'] = "A_user/delete_data_user";
 
 
 

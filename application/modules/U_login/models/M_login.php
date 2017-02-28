@@ -22,11 +22,11 @@ class M_login extends CI_Model {
             if($row['blokir']=='tidak'){
 
                 $newdata = array(
-                    'nama'=> $row['nama'],
-                    'foto'=> $row['foto'],
-                    'email' => $row['email'],//email
-                    'id' => $row['id'],
-                    'status' => $row['status'],
+                    'nama'      => $row['nama'],
+                    'foto'      => $row['foto'],
+                    'email'     => $row['email'],//email
+                    'id'        => $row['id'],
+                    'status'    => $row['status'],
                     'logged_in' => "78jhk39",
                 );
                 $this->session->set_userdata($newdata);

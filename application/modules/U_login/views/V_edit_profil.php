@@ -11,17 +11,19 @@
 										<hr class="tall">
 								</div>
 								<div class="panel-body">
-									<form class="form-horizontal form-bordered" method="post" action="<?=base_url('user/beranda/profil/edit')?>" enctype="">
+									<form class="form-horizontal form-bordered" method="post" action="<?=base_url('user/beranda/profil/edit')?>" enctype="multipart/form-data">
+										<input type="hidden" name="foto_lama" value="<?=$data['foto']?>">
+										<input type="hidden" name="foto_ktp_lama" value="<?=$data['foto_ktp']?>">
 										<div class="form-group">
 											<label class="col-md-3 control-label">Foto Profil</label>
 											<div class="col-md-6">
-												<img src="<?=base_url().'gambar/profil/default.png'?>" class="img-responsive">
+												<img src="<?=base_url().'gambar/profil/'.$data['foto']?>" class="img-responsive">
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="col-md-3 control-label">Masukkan Foto Anda</label>
 											<div class="col-md-6">
-												<input type="file" class="form-control" name="foto">
+												<input type="file" class="form-control" name="foto" required>
 												*input untuk mengganti
 											</div>
 										</div>
@@ -40,7 +42,7 @@
 										<div class="form-group">
 											<label class="col-md-3 control-label">Password</label>
 											<div class="col-md-6">
-												<input type="password" class="form-control" name="pw">
+												<input type="password" class="form-control" name="password">
 												*input untuk mengganti
 											</div>
 										</div>
@@ -56,8 +58,7 @@
 										<div class="form-group">
 											<label class="col-md-3 control-label">Alamat</label>
 											<div class="col-md-6">
-												
-											<textarea class="form-control" rows="3" name="alamat" required><?=$data['alamat']?></textarea>
+												<textarea class="form-control" rows="3" name="alamat" required><?=$data['alamat']?></textarea>
 											</div>
 										</div>
 										<div class="form-group">
@@ -75,13 +76,13 @@
 										<div class="form-group">
 											<label class="col-md-3 control-label">Foto KTP</label>
 											<div class="col-md-6">
-												<img src="<?=base_url().'gambar/ktp/default.png'?>" class="img-responsive">
+												<img src="<?=base_url().'gambar/profil/'.$data['foto_ktp']?>" class="img-responsive">
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="col-md-3 control-label">Input Foto KTP</label>
 											<div class="col-md-6">
-												<input type="file" class="form-control" name="foto_ktp" >
+												<input type="file" class="form-control" name="foto_ktp" required>
 												*input jika ingin mengganti
 											</div>
 										</div>

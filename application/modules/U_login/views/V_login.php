@@ -72,19 +72,19 @@
 							<span class="cloud"></span>
 							<div class="col-md-2 col-md-offset-1">
 								<div class="process-image appear-animation" data-appear-animation="bounceIn">
-									<img src="<?php echo base_url('template/img/home-concept-item-1.png')?>" alt="" />
+									<img src="<?php echo base_url('assets/img/5.jpg')?>" alt="" />
 									<strong>Strategy</strong>
 								</div>
 							</div>
 							<div class="col-md-2">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
-									<img src="<?php echo base_url('template/img/home-concept-item-2.png')?>" alt="" />
+									<img src="<?php echo base_url('assets/img/5.jpg')?>" alt="" />
 									<strong>Planning</strong>
 								</div>
 							</div>
 							<div class="col-md-2">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
-									<img src="<?php echo base_url('template/img/home-concept-item-3.png')?>" alt="" />
+									<img src="<?php echo base_url('assets/img/5.jpg')?>" alt="" />
 									<strong>Build</strong>
 								</div>
 							</div>
@@ -93,9 +93,9 @@
 								<div class="project-image">
 									<div id="fcSlideshow" class="fc-slideshow">
 										<ul class="fc-slides">
-											<li><img class="img-responsive" src="<?php echo base_url('template/img/projects/project-home-1.jpg')?>" alt="" /></a></li>
-											<li><img class="img-responsive" src="<?php echo base_url('template/img/projects/project-home-2.jpg')?>" alt="" /></a></li>
-											<li><img class="img-responsive" src="<?php echo base_url('template/img/projects/project-home-3.jpg')?>" alt="" /></a></li>
+											<li><img class="img-responsive" src="<?php echo base_url('assets/img/4.jpg')?>" alt="" /></a></li>
+											<li><img class="img-responsive" src="<?php echo base_url('assets/img/3.jpg')?>" alt="" /></a></li>
+											<li><img class="img-responsive" src="<?php echo base_url('assets/img/2.jpg')?>" alt="" /></a></li>
 										</ul>
 									</div>
 									<strong class="our-work">Our Work</strong>

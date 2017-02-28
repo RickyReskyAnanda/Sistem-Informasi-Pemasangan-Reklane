@@ -109,7 +109,7 @@
 										</li>
 										
 										<li class="">
-											<a  href="<?= base_url('user/beranda/daftar-pengajuan')?>">Daftar Pengajuan</a>
+											<a  href="<?= base_url('user/beranda/daftar-pengajuan')?>">Tabel Pengajuan</a>
 										</li>
 										<li class="">
 											<a href="<?= base_url('user/beranda/pengajuan')?>">Pengajuan</a>

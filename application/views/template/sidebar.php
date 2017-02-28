@@ -47,20 +47,21 @@
 											<nav>
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
-														<a  href="<?php echo base_url('c_homepage')?>">Beranda</a>
+														<a  href="<?php echo base_url()?>">Beranda</a>
 													</li>
 													
 													<li class="dropdown">
-														<a  href="<?php echo base_url('c_gallery')?>">Gallery</a>
+														<a  href="<?php echo base_url('galeri')?>">Gallery</a>
 													</li>
 													<li class="dropdown">
-														<a href="<?php echo base_url('c_pelayanan_reklame')?>">Pelayanan Reklame</a>
+														<a href="<?php echo base_url('pelayanan-reklame')?>">Pelayanan Reklame</a>
 													</li>
 													<li class="dropdown">
-														<a href="<?php echo base_url('c_panduan')?>">Panduan</a>
+														<a href="<?php echo base_url('panduan')?>">Panduan</a>
 													</li>
-													
-														
+													<li class="dropdown">
+														<a href="<?php echo base_url('tentang-kami')?>">Tentang Kami</a>
+													</li>
 													<li>
 														<a  href="<?php echo base_url('user/login')?>">
 															<i class="fa fa-user"></i> Login/Sign In
